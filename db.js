@@ -7,11 +7,11 @@ const pool = new Pool({
     // port: 5432,
 
     // This is for connecting database remotly(in cloud):
-    user: jitengurung,
+    user: jgurung,
     host: dpg-cn1d8hla73kc73ehuu9g-a,
     database: inventory_6qk5,
     password: EoiLRGqXiIhuPd3Nvgvpy9JUFOH,
-    dtabase: nepalSupermarket,
+    // dtabase: nepalSupermarket,
     port: 5432,
 
 });
