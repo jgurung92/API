@@ -17,5 +17,11 @@ The functions that are in controller module are:
 
 image::images/get.png[alt=get,width-500px][orientation=portrait]
 
+image::images/filterproducts.png[alt=get,width-500px][orientation=portrait]
+
+image::images/insert.png[alt=get,width-500px][orientation=portrait]
+
+image::images/update.png[alt=get,width-500px][orientation=portrait]
+
   
 
