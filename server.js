@@ -16,7 +16,7 @@ app.get("/", (req, res)=> {
 })
 
 //API Route
-//http://localhost:8003/api/v1.1/products
+// http://localhost:8003/api/v1.1/products
 app.use("/api/v1/nepalSupermarket", productsRoutes);
 
 app.listen(port, () => console.log('running on ${port}'));
