@@ -13,17 +13,12 @@ Controller module contains functions to handle HTTP requests for manageing produ
 ## What functions are created in controller module?
 The functions that are in controller module are:
 
-
-
 image::images/get.png[alt=get,width-500px][orientation=portrait]
     • Description: Retrieves all products from the database.
     • Method: GET
     • Endpoint: /api/products
     • Request Parameters: None
     • Response: JSON array of products.
-
-
-
 
 image::images/filterproducts.png[alt=get,width-500px][orientation=portrait]
 
