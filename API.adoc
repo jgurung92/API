@@ -1,0 +1,13 @@
+# Inventory API
+  Inventory API is an endpoint that is used to retrive data from database.
+  It consist four javascript files:
+1. Controller.js
+2. Route.js
+3. Server.js
+4. Queries.js
+
+## Controller.js
+## What is controller.js?
+Controller module contains functions to handle HTTP requests for manageing products.
+  
+
