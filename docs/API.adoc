@@ -22,6 +22,9 @@ image::images/get.png[alt=get,width-500px][orientation=portrait]
     • Request Parameters: None
     • Response: JSON array of products.
 
+
+
+
 image::images/filterproducts.png[alt=get,width-500px][orientation=portrait]
 
 image::images/insert.png[alt=get,width-500px][orientation=portrait]
