@@ -12,7 +12,7 @@ Controller module contains functions to handle HTTP requests for manageing produ
 
 ## What functions are created in controller module?
 The functions that are in controller module are:
-    image::get.png[alt=png,width=250px][orientation=portrait]
+    image::images/get.png[alt=png,width=250px][orientation=portrait]
 
   
 
