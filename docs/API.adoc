@@ -12,7 +12,41 @@ Controller module contains functions to handle HTTP requests for manageing produ
 
 ## What functions are created in controller module?
 The functions that are in controller module are:
-    image::images/get.png
+
+image::images/get.png[alt=get,width-500px][orientation=portrait]
+    • Description: Retrieves all products from the database.
+    • Method: GET
+    • Endpoint: /api/products
+    • Request Parameters: None
+    • Response: JSON array of products.
+
+image::images/filterproducts.png[alt=get,width-500px][orientation=portrait]
+    • Description: Retrieves a product by its ID from the database.
+    • Method: GET
+    • Endpoint: /api/products/:id
+    • Request Parameters:
+               id: ID of the product to retrieve (integer)
+    • Response: JSON object of the product.
+
+image::images/insert.png[alt=get,width-500px][orientation=portrait]
+    • Description: Inserts a new product into the database.
+    • Method: POST
+    • Endpoint: /api/products
+    • Request Body:
+            id: ID of the product (integer)
+            name: Name of the product
+            category: Category of the product
+ 
+    • Response: "Added New Product successfully" (string)
+
+image::images/update.png[alt=get,width-500px][orientation=portrait]
+    • Description: Updates the category of a product in the database.
+    • Method: PUT
+    • Endpoint: /api/products
+    • Request Body:
+              id: ID of the product (integer)
+              category: New category of the product
+    • Response: "Updated Products Successfully" (string)
 
   
 
